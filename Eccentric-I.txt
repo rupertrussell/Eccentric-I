@@ -1,0 +1,22 @@
+26-12-2008-013 {
+fractal:
+  title="26-12-2008-013" width=640 height=480 layers=1
+  credits="Rupert Russell;12/26/2008"
+layer:
+  caption="Background" opacity=100
+mapping:
+  center=-1.7692707111695394611046/0.056917676878889380326435
+  magn=1.9869379E14
+formula:
+  maxiter=50000 filename="Standard.ufm" entry="FastMandel" p_start=0/0
+  p_bailout=4.0
+inside:
+  transfer=none
+outside:
+  transfer=linear filename="anv.ucl" entry="color-5"
+gradient:
+  smooth=yes rotation=174 index=474 color=156 index=174 color=8716288
+  index=274 color=16121855 index=374 color=46591
+opacity:
+  smooth=no index=0 opacity=255
+}
